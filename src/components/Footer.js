@@ -18,7 +18,7 @@ const Footer = () => {
         justifyContent: 'space-between',
         alignItems: 'flex-start'
       }}>
-        {/* Company Description */}
+        
         <div style={{
           flex: 1,
           minWidth: '250px',
@@ -38,7 +38,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Navigation Links */}
+       
         <div style={{
           flex: 1,
           minWidth: '200px',
@@ -105,7 +105,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Social Media */}
+       
         <div style={{
           flex: 1,
           minWidth: '200px',
@@ -156,7 +156,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Copyright */}
+     
       <div style={{
         borderTop: '1px solid #ecf0f1',
         paddingTop: '20px',

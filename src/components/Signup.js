@@ -18,7 +18,7 @@ const Signup = () => {
             ...prevState,
             [name]: value
         }));
-        // Clear error when user starts typing
+        
         if (errors[name]) {
             setErrors(prevErrors => ({
                 ...prevErrors,

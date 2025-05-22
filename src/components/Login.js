@@ -16,7 +16,7 @@ const Login = () => {
             ...prevState,
             [name]: value
         }));
-        // Clear error when user starts typing
+        
         if (errors[name]) {
             setErrors(prevErrors => ({
                 ...prevErrors,
@@ -42,7 +42,7 @@ const Login = () => {
         e.preventDefault();
         const newErrors = validateForm();
         if (Object.keys(newErrors).length === 0) {
-            // Add your login logic here
+            
             console.log('Login data:', formData);
         } else {
             setErrors(newErrors);

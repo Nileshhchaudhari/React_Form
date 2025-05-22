@@ -22,7 +22,7 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData);
-    // Add your form submission logic here
+   
   };
 
   return (
