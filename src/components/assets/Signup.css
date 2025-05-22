@@ -1,0 +1,145 @@
+.signup-container {
+    min-height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.signup-wrapper {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.signup-wrapper h2 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.signup-wrapper p {
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #dcdde1;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #4AD295;
+    box-shadow: 0 0 0 2px rgba(74, 210, 149, 0.2);
+}
+
+.form-group input.error {
+    border-color: #e74c3c;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+    display: block;
+}
+
+.terms {
+    margin-bottom: 1.5rem;
+}
+
+.terms label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+.terms input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #4AD295;
+}
+
+.signup-btn {
+    width: 100%;
+    padding: 12px;
+    background: #4AD295;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.signup-btn:hover {
+    background: #3ab380;
+    transform: translateY(-2px);
+}
+
+.signup-btn:active {
+    transform: translateY(0);
+}
+
+.login-link {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.login-link a {
+    color: #4AD295;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.login-link a:hover {
+    color: #3ab380;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .signup-wrapper {
+        padding: 1.5rem;
+    }
+
+    .signup-wrapper h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .signup-container {
+        padding: 1rem;
+    }
+
+    .signup-wrapper {
+        padding: 1rem;
+    }
+
+    .terms label {
+        font-size: 0.8rem;
+    }
+}
